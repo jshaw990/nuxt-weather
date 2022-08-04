@@ -1,7 +1,7 @@
 # Nuxt Weather App
 
 ## Author
-(Jayden Shaw)[https://jaydenshaw.com]
+Jayden Shaw](https://jaydenshaw.com)
 
 ## Features 
 - Display Current, Seven-Day, and Hourly forecast for location
@@ -13,6 +13,9 @@
 - Documented functions using JsDocs
 
 ## Planned Features
+- [Weather Map](https://openweathermap.org/api/weathermaps)
+- [Air pollution](https://openweathermap.org/api/air-pollution)
+- Caching of weather data
 
 ## Technologies Utilized
 - TypeScript
