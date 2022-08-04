@@ -24,3 +24,7 @@
 - Vuetify
 - Axios
 - [Open Weather API](https://openweathermap.org/)
+
+## Screenshots 
+![Dark Mode](https://github.com/jshaw990/nuxt-weather/blob/master/static/screenshots/darkMode.png)
+![Light Mode](https://github.com/jshaw990/nuxt-weather/blob/master/static/screenshots/lightMode.png)
