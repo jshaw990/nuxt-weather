@@ -1,7 +1,7 @@
 # Nuxt Weather App
 
 ## Author
-Jayden Shaw](https://jaydenshaw.com)
+[Jayden Shaw](https://jaydenshaw.com)
 
 ## Features 
 - Display Current, Seven-Day, and Hourly forecast for location
