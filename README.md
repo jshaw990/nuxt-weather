@@ -26,5 +26,8 @@
 - [Open Weather API](https://openweathermap.org/)
 
 ## Screenshots 
+Dark Mode
 ![Dark Mode](https://github.com/jshaw990/nuxt-weather/blob/master/static/screenshots/darkMode.png)
+
+Light Mode
 ![Light Mode](https://github.com/jshaw990/nuxt-weather/blob/master/static/screenshots/lightMode.png)
