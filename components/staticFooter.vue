@@ -1,56 +1,6 @@
 <template>
-  <v-card class="footer" min-height="200">
-    <v-footer>
-      <v-card-text
-        class="d-flex flex-column flex-sm-row text-center align-center align-sm-start justify-center"
-      >
-        <div class="mx-2 my-2 my-sm-0">Projects</div>
-        <div class="mx-2 my-2 my-sm-0">Skills</div>
-        <div class="mx-2 my-2 my-sm-0">Experience</div>
-        <div class="mx-2 my-2 my-sm-0">Contact</div>
-        <NuxtLink to="/blog" class="mx-2 my-2 my-sm-0">Blog</NuxtLink>
-        <div class="mx-2 my-2 my-sm-0">Resume</div>
-      </v-card-text>
-      <v-card-text
-        class="d-flex flex-row flex-sm-row text-center align-center align-sm-start justify-center"
-      >
-        <div class="mx-3 mx-sm-8 my-2 my-sm-0 pointer">
-          <v-tooltip bottom>
-            <template v-slot:activator="{ on, attrs }">
-              <v-icon v-on="on" v-bind="attrs" size="48">
-                mdi-file-account
-              </v-icon>
-            </template>
-            <div>Resume</div>
-          </v-tooltip>
-        </div>
-        <div class="mx-3 mx-sm-8 my-2 my-sm-0 pointer">
-          <v-tooltip bottom>
-            <template v-slot:activator="{ on, attrs }">
-              <v-icon v-on="on" v-bind="attrs" size="48">mdi-email</v-icon>
-            </template>
-            <div>Email</div>
-          </v-tooltip>
-        </div>
-        <div class="mx-3 mx-sm-8 my-2 my-sm-0 pointer">
-          <v-tooltip bottom>
-            <template v-slot:activator="{ on, attrs }">
-              <v-icon v-on="on" v-bind="attrs" size="48">mdi-github</v-icon>
-            </template>
-            <div>Github</div>
-          </v-tooltip>
-        </div>
-        <div class="mx-3 mx-sm-8 my-2 my-sm-0 pointer">
-          <v-tooltip bottom>
-            <template v-slot:activator="{ on, attrs }">
-              <v-icon v-on="on" v-bind="attrs" size="48">mdi-linkedin</v-icon>
-            </template>
-            <div>LinkedIn</div>
-          </v-tooltip>
-        </div>
-      </v-card-text>
-    </v-footer>
-    <div class="d-flex justify-space-between my-4 mx-9">
+  <v-card class="footer">
+    <div class="d-flex justify-space-between py-4 mx-9">
       <div>&copy; {{ getCurrentYear() }} Jayden Shaw</div>
       <div>
         <v-tooltip left>

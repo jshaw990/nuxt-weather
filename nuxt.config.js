@@ -13,8 +13,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: "%s - nuxt-weather",
-    title: "nuxt-weather",
+    titleTemplate: "%s - Weather",
+    title: "Weather",
     htmlAttrs: {
       lang: "en",
     },
