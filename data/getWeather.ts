@@ -1,11 +1,20 @@
 import axios from "axios"
 
-export default function getWeather() {
+const getWeather = () => {
     const BASE_URL = 'https://api.openweathermap.org/data/2.5/'
     const API_KEY = `appid=${process.env.WEATHER_API}`
 
-    async function getCurrentWeather(lat: String, lng: String) {
-        const URL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${process.env.WEATHER_API}`
+    /**
+     * @name getByLatLon
+     * @function
+     * @async 
+     * Get weather for location based of lat long
+     * @param {string} lat - latitude
+     * @param {string} lon - longitude
+     * @returns {WeatherData} Weather forecast
+     */
+    const getByLatLon = async (lat: string, lon: string) => {
+        const URL = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${process.env.WEATHER_API}`
 
         return await axios.get(URL)
             .then((response) => {
@@ -22,7 +31,9 @@ export default function getWeather() {
     }
 
     return {
-        getCurrentWeather
+        getByLatLon
     }
 
 }
+
+export default getWeather
