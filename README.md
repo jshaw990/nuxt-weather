@@ -1,11 +1,16 @@
 # Nuxt Weather App
 
+Dark Mode
+![Dark Mode](https://github.com/jshaw990/nuxt-weather/blob/master/static/screenshots/darkMode.png)
+
+Light Mode
+![Light Mode](https://github.com/jshaw990/nuxt-weather/blob/master/static/screenshots/lightMode.png)
+
 [Deployed to Netlify!](https://nuxt-weather-app.netlify.app/)\
 [![Site Status](https://api.netlify.com/api/v1/badges/3fa15fb6-7d3e-4844-968c-491e5bbfbdd6/deploy-status)](https://app.netlify.com/sites/nuxt-weather-app/deploys)
 
 ## Author
 Jayden Shaw\
-\
 [Portfolio](https://jaydenshaw.com/) | [Github](https://github.com/jshaw990) | [LinkedIn](https://www.linkedin.com/in/jayden-shaw)
 
 ## Features 
@@ -31,8 +36,5 @@ Jayden Shaw\
 - [Open Weather API](https://openweathermap.org/)
 
 ## Screenshots 
-Dark Mode
-![Dark Mode](https://github.com/jshaw990/nuxt-weather/blob/master/static/screenshots/darkMode.png)
-
-Light Mode
-![Light Mode](https://github.com/jshaw990/nuxt-weather/blob/master/static/screenshots/lightMode.png)
+- [Dark Mode](https://github.com/jshaw990/nuxt-weather/blob/master/static/screenshots/darkMode.png)
+- [Light Mode](https://github.com/jshaw990/nuxt-weather/blob/master/static/screenshots/lightMode.png)
