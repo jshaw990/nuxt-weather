@@ -1,10 +1,12 @@
 # Nuxt Weather App
 
-[Deployed to Netlify!](https://nuxt-weather-app.netlify.app/)
+[Deployed to Netlify!](https://nuxt-weather-app.netlify.app/)\
 [![Site Status](https://api.netlify.com/api/v1/badges/3fa15fb6-7d3e-4844-968c-491e5bbfbdd6/deploy-status)](https://app.netlify.com/sites/nuxt-weather-app/deploys)
 
 ## Author
-[Jayden Shaw](https://jaydenshaw.com)
+Jayden Shaw\
+\
+[Portfolio](https://jaydenshaw.com/) | [Github](https://github.com/jshaw990) | [LinkedIn](https://www.linkedin.com/in/jayden-shaw)
 
 ## Features 
 - Display Current, Seven-Day, and Hourly forecast for location
